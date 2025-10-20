@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kristine Kurth • Medical Health Coach — Online Coaching</title>
+  <meta name="description" content="Health coaching for lifestyle change, energy, and stress management. Online sessions with Kristine Kurth, Medical Health Coach with a medical background.">
+  <meta name="theme-color" content="#0f172a" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>body{margin:0;font-family:Inter;background:#0b1220;color:#e5e7eb}/* styling omitted for brevity - will restore full CSS after translation confirmation */</style>
+</head>
+<body>
+  <header>
+    <div class="nav container">
+      <div class="brand">
+        <div class="logo"></div>
+        <h1>Kristine Kurth</h1>
+      </div>
+      <nav>
+        <a href="#services" class="btn">Services</a>
+        <a href="#method" class="btn">Method</a>
+        <a href="#pricing" class="btn">Pricing</a>
+        <a href="#contact" class="btn primary">Book now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="container hero">
+      <div class="copy card glass">
+        <span class="eyebrow">Online health coaching</span>
+        <h2>Medical Health Coach with medical background</h2>
+        <p class="lead">I help people regain energy, clarity, and healthy routines. Human and evidence-based approach.<br><strong>Legal note:</strong> I do not provide diagnosis or medical prescriptions.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="#contact">Book a call</a>
+          <a class="btn" href="#contact">Contact me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONDITIONS -->
+    <section class="container" id="conditions">
+      <h3>Who I help</h3>
+      <p>I work with people who are navigating long-term health challenges such as <strong>Lyme Disease, Long Covid, chronic infections, post-viral illness or unexplained chronic symptoms</strong>. Many of my clients have seen multiple professionals, tried different treatments, and still feel unheard or dismissed.</p>
+      <p>If you feel like your life has been put on hold because of persistent symptoms, you are not alone. Together, we focus on <strong>progress, not perfection</strong> — step by step, rebuilding your energy, resilience and quality of life.</p>
+      <p>Common symptoms I help clients manage through coaching:</p>
+      <ul>
+        <li>Neurological: brain fog, anxiety, hypersensitivity, sleep disturbances</li>
+        <li>Cardiac: palpitations, heart rate instability, POTS-like symptoms</li>
+        <li>Respiratory: shortness of breath, reduced stamina, air hunger</li>
+        <li>Digestive: bloating, abdominal pain, food sensitivities</li>
+        <li>Systemic: fatigue, pain flares, post-exertional malaise</li>
+      </ul>
+      <p><strong>What I do:</strong> I guide you with structure, emotional support and practical strategies to regain function and confidence in daily life.</p>
+      <p><em>Important:</em> I do not diagnose or provide medical treatment. Coaching is a complementary support for your healing journey and can be combined with medical care from licensed professionals.</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="container" id="about">
+      <h3>About me</h3>
+      <p>I am a Health Coach with a <strong>background in medicine</strong> (medical degree, not licensed to practice medicine). I combine scientific knowledge with coaching strategies to help people build sustainable habits and improve well-being.</p>
+      <p class="note"><em>Disclaimer:</em> Coaching does not replace medical evaluation or treatment. For clinical concerns, consult a licensed physician.</p>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="container" id="services">
+      <h3>Services</h3>
+      <ul>
+        <li>30-min introduction call — Free</li>
+        <li>1:1 Coaching Session — 60 minutes</li>
+        <li>6-week Coaching Program</li>
+      </ul>
+    </section>
+
+    <!-- METHOD -->
+    <section class="container" id="method">
+      <h3>My method</h3>
+      <ol>
+        <li>Assessment & goal setting</li>
+        <li>Personalized action plan</li>
+        <li>Follow-up & accountability</li>
+      </ol>
+    </section>
+
+    <!-- PRICING -->
+    <section class="container" id="pricing">
+      <h3>Pricing</h3>
+      <ul>
+        <li>Intro call — Free</li>
+        <li>Single session — €90</li>
+        <li>6-week program — €320</li>
+      </ul>
+    </section>
+
+    <!-- FAQ -->
+    <section class="container" id="faq">
+      <h3>FAQ</h3>
+      <p><strong>Are you a medical doctor?</strong><br>I hold a medical degree but I am not licensed to practice medicine. I offer coaching, not medical services.</p>
+      <p><strong>Can you give medical advice?</strong><br>No. For medical advice, diagnosis, or treatment, please consult a licensed physician.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="container" id="contact">
+      <h3>Contact</h3>
+      <p>Email: info@example.com</p>
+      <p>WhatsApp: +00 000 000 000</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Kristine Kurth — Medical Health Coach</p>
+      <p class="note">Information on this website is for educational purposes only and is not medical advice.</p>
+    </div>
+    <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+  </footer>
+</body>
+</html>
