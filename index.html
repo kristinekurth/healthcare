@@ -1,119 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+  ═══════════════════════════════════════════════════════════════
+  GUIDA RAPIDA PER MODIFICARE QUESTA PAGINA (puoi cancellare
+  questa guida quando non ti serve più)
+
+  1. Ogni parte della pagina inizia con un commento "SEZIONE: NOME"
+     e finisce con "FINE SEZIONE: NOME".
+  2. Per TOGLIERE una parte: cancella tutto, dal commento "SEZIONE"
+     fino a "FINE SEZIONE" compresi. Il resto continua a funzionare.
+  3. Per CAMBIARE un testo: modifica solo le parole normali,
+     senza toccare i simboli < e > e quello che c'è in mezzo.
+  4. Per i CONTATTI veri: cerca la parola CONTATTI qui sotto.
+  5. Per la FOTO: cerca la parola FOTO qui sotto.
+  ═══════════════════════════════════════════════════════════════
+-->
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kristine Kurth • Medical Health Coach — Online Coaching</title>
-  <meta name="description" content="Health coaching for lifestyle change, energy, and stress management. Online sessions with Kristine Kurth, Medical Health Coach with a medical background.">
-  <meta name="theme-color" content="#0f172a" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <style>body{margin:0;font-family:Inter;background:#0b1220;color:#e5e7eb}/* styling omitted for brevity - will restore full CSS after translation confirmation */</style>
+  <title>Kristine Kurth — Health Coach</title>
+  <meta name="description" content="Health coaching for people with Lyme disease, Long Covid and chronic illness. Online sessions with Kristine Kurth, health coach with a medical background.">
+
+  <!-- ===== BLOCCO SEO (motori di ricerca e anteprime social) =====
+       Se non lo vuoi, cancella tutto da qui fino a "FINE BLOCCO SEO":
+       il sito continua a funzionare esattamente uguale. -->
+  <meta property="og:title" content="Kristine Kurth — Health Coach">
+  <meta property="og:description" content="Health coaching for people with Lyme disease, Long Covid and chronic illness. Online sessions from the USA.">
+  <meta property="og:type" content="website">
+  <!-- Quando il sito avrà il suo indirizzo definitivo, togli il commento
+       a queste due righe e metti l'indirizzo vero al posto di esempio.com:
+  <link rel="canonical" href="https://esempio.com/">
+  <meta property="og:url" content="https://esempio.com/">
+  -->
+  <!-- Quando aggiungi la foto (foto.jpg), togli il commento a questa riga
+       così appare anche nelle anteprime di WhatsApp e social:
+  <meta property="og:image" content="foto.jpg">
+  -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kristine Kurth",
+    "jobTitle": "Health Coach",
+    "description": "Health coaching for people with Lyme disease, Long Covid and chronic illness. Online sessions from the USA."
+  }
+  </script>
+  <!-- ===== FINE BLOCCO SEO ===== -->
+
+  <style>
+    :root{
+      --bg:#fdfcfa; --text:#2b2f33; --muted:#6b7280;
+      --accent:#2f7d6d; --border:#e6e3dd;
+    }
+    *{box-sizing:border-box}
+    body{margin:0; font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+      background:var(--bg); color:var(--text); line-height:1.65}
+    .container{max-width:760px; margin:0 auto; padding:0 20px}
+
+    header{border-bottom:1px solid var(--border)}
+    .nav{display:flex; align-items:center; justify-content:space-between;
+      gap:12px; flex-wrap:wrap; padding-top:16px; padding-bottom:16px}
+    .brand{font-weight:600; font-size:1.05rem}
+    .btn{display:inline-block; background:var(--accent); color:#fff !important;
+      padding:9px 18px; border-radius:6px; text-decoration:none !important; font-weight:500}
+    .btn:hover{background:#266657}
+
+    .hero{display:flex; align-items:center; gap:28px; flex-wrap:wrap;
+      padding:48px 0 8px}
+    .photo{width:140px; height:140px; border-radius:50%; flex-shrink:0;
+      object-fit:cover; background:#e9efec;
+      border:1px solid var(--border)}
+    div.photo{display:flex; align-items:center; justify-content:center;
+      color:var(--accent); font-size:2.2rem; font-weight:600}
+    .hero-text{flex:1; min-width:260px}
+
+    h1{font-family:Georgia,'Times New Roman',serif; font-weight:600;
+      font-size:1.9rem; line-height:1.25; margin:0 0 .6rem}
+    h2{font-family:Georgia,'Times New Roman',serif; font-weight:600;
+      font-size:1.4rem; margin:0 0 .6rem}
+    section{padding-top:44px}
+    .lead{color:var(--muted); font-size:1.05rem; margin:0 0 1rem}
+    ul{padding-left:1.25rem}
+    li{margin:.3rem 0}
+    a{color:var(--accent)}
+    .note{color:var(--muted); font-size:.87rem}
+
+    footer{margin-top:56px; border-top:1px solid var(--border);
+      padding:24px 0; color:var(--muted); font-size:.9rem}
+    footer p{margin:.3rem 0}
+  </style>
 </head>
 <body>
+
   <header>
     <div class="nav container">
-      <div class="brand">
-        <div class="logo"></div>
-        <h1>Kristine Kurth</h1>
-      </div>
-      <nav>
-        <a href="#services" class="btn">Services</a>
-        <a href="#method" class="btn">Method</a>
-        <a href="#pricing" class="btn">Pricing</a>
-        <a href="#contact" class="btn primary">Book now</a>
-      </nav>
+      <span class="brand">Kristine Kurth</span>
+      <a href="#contact" class="btn">Contact</a>
     </div>
   </header>
 
-  <main>
-    <!-- HERO -->
-    <section class="container hero">
-      <div class="copy card glass">
-        <span class="eyebrow">Online health coaching</span>
-        <h2>Medical Health Coach with medical background</h2>
-        <p class="lead">I help people regain energy, clarity, and healthy routines. Human and evidence-based approach.<br><strong>Legal note:</strong> I do not provide diagnosis or medical prescriptions.</p>
-        <div class="cta-row">
-          <a class="btn primary" href="#contact">Book a call</a>
-          <a class="btn" href="#contact">Contact me</a>
-        </div>
+  <main class="container">
+
+    <!-- ═══ SEZIONE: PRESENTAZIONE ═══ -->
+    <section class="hero">
+      <!-- FOTO: quando hai una foto, metti il file "foto.jpg" nella stessa
+           cartella del sito e sostituisci la riga qui sotto con:
+           <img class="photo" src="foto.jpg" alt="Kristine Kurth"> -->
+      <div class="photo" aria-hidden="true">KK</div>
+      <div class="hero-text">
+        <h1>Health coaching for long-term illness recovery</h1>
+        <p class="lead">I am a health coach with a medical background. I help people with chronic health challenges regain energy, routine and confidence. Based in the USA — online sessions, available wherever you are.</p>
+        <p class="note"><strong>Note:</strong> I hold a medical degree but I am not licensed to practice medicine. I offer coaching, not diagnosis, treatment or prescriptions.</p>
       </div>
     </section>
+    <!-- ═══ FINE SEZIONE: PRESENTAZIONE ═══ -->
 
-    <!-- CONDITIONS -->
-    <section class="container" id="conditions">
-      <h3>Who I help</h3>
-      <p>I work with people who are navigating long-term health challenges such as <strong>Lyme Disease, Long Covid, chronic infections, post-viral illness or unexplained chronic symptoms</strong>. Many of my clients have seen multiple professionals, tried different treatments, and still feel unheard or dismissed.</p>
-      <p>If you feel like your life has been put on hold because of persistent symptoms, you are not alone. Together, we focus on <strong>progress, not perfection</strong> — step by step, rebuilding your energy, resilience and quality of life.</p>
-      <p>Common symptoms I help clients manage through coaching:</p>
+    <!-- ═══ SEZIONE: CHI AIUTO ═══
+         (utile per farsi trovare su Google: contiene le parole
+         che le persone cercano, come Lyme, Long Covid, ecc.) -->
+    <section id="who">
+      <h2>Who I help</h2>
+      <p>I work with people navigating long-term health challenges such as <strong>Lyme disease, Long Covid, chronic infections, post-viral illness or unexplained chronic symptoms</strong> — fatigue, brain fog, sleep problems, palpitations, pain flares, post-exertional malaise.</p>
+      <p>Many of my clients have seen several professionals and still feel unheard. Together we focus on <strong>progress, not perfection</strong>: step by step, rebuilding energy, resilience and quality of life through structure, emotional support and practical strategies.</p>
+    </section>
+    <!-- ═══ FINE SEZIONE: CHI AIUTO ═══ -->
+
+    <!-- ═══ SEZIONE: SERVIZI E PREZZI ═══ -->
+    <section id="services">
+      <h2>Services &amp; pricing</h2>
       <ul>
-        <li>Neurological: brain fog, anxiety, hypersensitivity, sleep disturbances</li>
-        <li>Cardiac: palpitations, heart rate instability, POTS-like symptoms</li>
-        <li>Respiratory: shortness of breath, reduced stamina, air hunger</li>
-        <li>Digestive: bloating, abdominal pain, food sensitivities</li>
-        <li>Systemic: fatigue, pain flares, post-exertional malaise</li>
+        <li>30-minute introduction call — <strong>free</strong></li>
+        <li>1:1 coaching session (60 minutes) — <strong>$90</strong></li>
+        <li>6-week coaching program — <strong>$320</strong></li>
       </ul>
-      <p><strong>What I do:</strong> I guide you with structure, emotional support and practical strategies to regain function and confidence in daily life.</p>
-      <p><em>Important:</em> I do not diagnose or provide medical treatment. Coaching is a complementary support for your healing journey and can be combined with medical care from licensed professionals.</p>
+      <p>How we work: first an assessment and goal setting, then a personalized action plan, with regular follow-up along the way.</p>
     </section>
+    <!-- ═══ FINE SEZIONE: SERVIZI E PREZZI ═══ -->
 
-    <!-- ABOUT -->
-    <section class="container" id="about">
-      <h3>About me</h3>
-      <p>I am a Health Coach with a <strong>background in medicine</strong> (medical degree, not licensed to practice medicine). I combine scientific knowledge with coaching strategies to help people build sustainable habits and improve well-being.</p>
-      <p class="note"><em>Disclaimer:</em> Coaching does not replace medical evaluation or treatment. For clinical concerns, consult a licensed physician.</p>
+    <!-- ═══ SEZIONE: CONTATTI ═══ -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <!-- CONTATTI: sostituisci l'indirizzo email e il numero di telefono
+           nei DUE punti di ogni riga (sia nel link href che nel testo visibile) -->
+      <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+      <p>Phone / WhatsApp: <a href="tel:+15550000000">+1 (555) 000-0000</a></p>
+      <p class="note">Write me a short message about your situation and I will get back to you to schedule a free introduction call.</p>
     </section>
+    <!-- ═══ FINE SEZIONE: CONTATTI ═══ -->
 
-    <!-- SERVICES -->
-    <section class="container" id="services">
-      <h3>Services</h3>
-      <ul>
-        <li>30-min introduction call — Free</li>
-        <li>1:1 Coaching Session — 60 minutes</li>
-        <li>6-week Coaching Program</li>
-      </ul>
-    </section>
-
-    <!-- METHOD -->
-    <section class="container" id="method">
-      <h3>My method</h3>
-      <ol>
-        <li>Assessment & goal setting</li>
-        <li>Personalized action plan</li>
-        <li>Follow-up & accountability</li>
-      </ol>
-    </section>
-
-    <!-- PRICING -->
-    <section class="container" id="pricing">
-      <h3>Pricing</h3>
-      <ul>
-        <li>Intro call — Free</li>
-        <li>Single session — €90</li>
-        <li>6-week program — €320</li>
-      </ul>
-    </section>
-
-    <!-- FAQ -->
-    <section class="container" id="faq">
-      <h3>FAQ</h3>
-      <p><strong>Are you a medical doctor?</strong><br>I hold a medical degree but I am not licensed to practice medicine. I offer coaching, not medical services.</p>
-      <p><strong>Can you give medical advice?</strong><br>No. For medical advice, diagnosis, or treatment, please consult a licensed physician.</p>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="container" id="contact">
-      <h3>Contact</h3>
-      <p>Email: info@example.com</p>
-      <p>WhatsApp: +00 000 000 000</p>
-    </section>
   </main>
 
   <footer>
     <div class="container">
-      <p>© <span id="year"></span> Kristine Kurth — Medical Health Coach</p>
-      <p class="note">Information on this website is for educational purposes only and is not medical advice.</p>
+      <p>© <span id="year"></span> Kristine Kurth — Health Coach</p>
+      <p class="note">Information on this website is for educational purposes only and is not medical advice. For clinical concerns, consult a licensed physician.</p>
     </div>
     <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
   </footer>
+
 </body>
 </html>
